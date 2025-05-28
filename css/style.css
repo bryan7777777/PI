@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     width: 100vw;
     height: 100vh;
@@ -6,7 +10,8 @@ body{
 /* HEADER */
 header{
     width: 100%;
-    height: 20%;
+    height: auto;
+    max-height: 20%;
     background-color: #1f2d3b;
     color: rgb(219, 197, 74);
     display: flex;
@@ -15,6 +20,11 @@ header{
     justify-content: center;
     gap: 35px;
     border-bottom: solid 5px rgba(217, 176, 62, 0.8);
+}
+
+header h1{
+    padding-top: 35px;
+    font-size: 170%;
 }
 
 /* MAIN */
