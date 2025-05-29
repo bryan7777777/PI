@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaea Protocol</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/jogo.css">
+    <script src="../js/jogo.js" defer></script>
+</head>
+<body>
+
+<div id="inicio">
+    <h1>Gaea Protocol</h1>
+    <button onclick="iniciarJogo()">Começar</button>
+    <button class="off">Saves</button>
+    <button class="off">Opções</button>
+</div>
+
+<canvas id="gameCanvas" width="800" height="600" style="display:none;"></canvas>
+
+<div id="gameover" style="display:none;">
+    <h2>Game Over!</h2>
+    <button onclick="reiniciarJogo()">Reiniciar</button>
+</div>    
+</body>
+</html>
